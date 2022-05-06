@@ -5,8 +5,8 @@
   "main": "bot.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "snipe": "node bot.js"
+    "buy": "node buy.js",
+    "sell": "node sell.js"
   },
   "author": "",
   "license": "ISC",

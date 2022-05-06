@@ -1,11 +1,8 @@
+dotenv.config();
 import ethers from 'ethers';
-import express from 'express';
 import chalk from 'chalk';
 import dotenv from 'dotenv';
 import inquirer from 'inquirer';
-
-const app = express();
-dotenv.config();
 
 const data = {
   BNB: process.env.BNB_CONTRACT, //bnb
@@ -191,7 +188,3 @@ let buyAction = async () => {
 }
 
 run();
-
-const PORT = 5001;
-
-app.listen(PORT, console.log(chalk.yellow(`Listening for Liquidity Addition to token ${data.to_PURCHASE}`)));
