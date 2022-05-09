@@ -5,6 +5,7 @@
   "main": "bot.js",
   "type": "module",
   "scripts": {
+    "dev": "nodemon dev.js",
     "buy": "node buy.js",
     "sell": "node sell.js"
   },
@@ -15,6 +16,8 @@
     "dotenv": "^10.0.0",
     "ethers": "^5.1.4",
     "express": "^4.17.1",
-    "inquirer": "^8.1.0"
+    "inquirer": "^8.1.0",
+    "notify-send": "^0.1.2",
+    "play-sound": "^1.1.5"
   }
 }
